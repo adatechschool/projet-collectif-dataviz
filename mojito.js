@@ -11,24 +11,14 @@ document.addEventListener("DOMContentLoaded", function () { //quand on charge le
        
         const mojitoObj = data.drinks[0]
         for (let key in mojitoObj){
-            console.log('key :', key)
-            if (mojitoObj.hasOwnProperty(key)){
-                if (key.includes('strIngredient') && mojitoObj[key] !== null){
-                    console.log(mojitoObj.key)
-                    ingredients.innerHTML += `<li> ${mojitoObj[key]} </li>`
-                }
-                if (key.includes('strDrink')){
-
-                }
+            if (key.includes('strIngredient') && mojitoObj[key] !== null)
+                ingredients.innerHTML += `<li> ${mojitoObj[key]} </li>`
                 
-            }
-        }
-    }
+            if (key.includes('strDrink'))
+                name.innerHTML += ``
 
-    )
-
-
-
-
-
-})
+            if (key.includes(''))
+                
+        };
+    });
+});
