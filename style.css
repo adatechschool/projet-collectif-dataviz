@@ -45,6 +45,7 @@ a{
     clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
     right: 400px;
     top: 250px;
+    border-radius: 13px;
 }
 
 .water-ctr{
@@ -76,4 +77,20 @@ a{
 @keyframes mymove {
     0%{right: 0; top: 400px;}
     100%{right: 3400px; top: -30px;}
+}
+
+#btn{
+    background-image: url('fleche.GIF');
+    background-color: transparent;
+    font-family: 'Chalkduster', fantasy ;
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    border: none;
+
+}
+
+#btn:hover{
+    
+    cursor: pointer;
 }
