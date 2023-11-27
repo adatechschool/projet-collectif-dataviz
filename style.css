@@ -11,6 +11,11 @@ body {
         3px 3px 0 #333;
 }
 
+h1 {
+    white-space: nowrap;
+}
+
+
 .chalk {
     max-width: 800px;
     margin: 0 auto;
@@ -21,8 +26,13 @@ a {
     outline: none;
     text-decoration: none;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
+ul{
+    list-style-type: none;
+}
 
 
 .glass-ctr {
@@ -63,7 +73,7 @@ a {
 .mojito {
     width: 4000px;
     height: 800px;
-    background-image: url('mojito.png');
+    background-image: url('drinksPNG/mojito.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -75,7 +85,7 @@ a {
 .gin_tonic {
     width: 4000px;
     height: 800px;
-    background-image: url('gin_tonic.png');
+    background-image: url('drinksPNG/gin_tonic.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -87,7 +97,7 @@ a {
 .bloody_mary {
     width: 4000px;
     height: 800px;
-    background-image: url('bloody_mary.png');
+    background-image: url('drinksPNG/bloody_mary.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -96,10 +106,10 @@ a {
     z-index: 1;
 }
 
-.planteur {
+.planter {
     width: 4000px;
     height: 800px;
-    background-image: url('planter.png');
+    background-image: url('drinksPNG/planter.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -108,10 +118,10 @@ a {
     z-index: 1;
 }
 
-.horse_s_neck {
+.horse {
     width: 4000px;
     height: 800px;
-    background-image: url('horse.png');
+    background-image: url('drinksPNG/horse.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -123,7 +133,7 @@ a {
 .mary_pickford {
     width: 4000px;
     height: 800px;
-    background-image: url('mary_pickford.png');
+    background-image: url('drinksPNG/mary_pickford.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -135,7 +145,7 @@ a {
 .grand_blue {
     width: 4000px;
     height: 800px;
-    background-image: url('grand_blue.png');
+    background-image: url('drinksPNG/grand_blue.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -147,7 +157,7 @@ a {
 .absolut_stress {
     width: 4000px;
     height: 800px;
-    background-image: url('absolut_stress.png');
+    background-image: url('drinksPNG/absolut_stress.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -159,7 +169,7 @@ a {
 .kiwi_lemon {
     width: 4000px;
     height: 800px;
-    background-image: url('kiwi_lemon.png');
+    background-image: url('drinksPNG/kiwi_lemon.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -171,7 +181,7 @@ a {
 .yellow_bird {
     width: 4000px;
     height: 800px;
-    background-image: url('image.png');
+    background-image: url('drinksPNG/yellow_bird.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;

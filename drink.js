@@ -1,13 +1,3 @@
-const translate = (text) =>{
-    const deeplURL = ''
-    const key = 'c42e4df7-2bdf-5f83-980c-432304ac61d3:fx'
-}
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const variableValue = urlParams.get('drink');
