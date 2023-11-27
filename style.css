@@ -60,10 +60,11 @@ a {
     bottom: 420px;
 }
 
-.water {
+
+.mojito {
     width: 4000px;
     height: 800px;
-    background-image: url('image.png');
+    background-image: url('mojito.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
