@@ -2,22 +2,22 @@ body {
     background-image: url('https://esthero.fr/cdn/shop/products/D622_1200x1200.jpg?v=1603261034');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Chalkduster', fantasy ; /* Police de type machine à écrire pour l'aspect craie */
-    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
-    color: #ffffff; /* Couleur du texte (blanc pour l'aspect craie) */
-    text-shadow: 
-        1px 1px 0 #333, /* Ombre légère */
-        2px 2px 0 #333, /* Ombre plus prononcée */
-        3px 3px 0 #333; /* Ombre la plus prononcée */
+    font-family: 'Chalkduster', fantasy;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow:
+        1px 1px 0 #333,
+        2px 2px 0 #333,
+        3px 3px 0 #333;
 }
 
 .chalk {
-    max-width: 800px; /* Ajustez la largeur du conteneur selon vos besoins */
-    margin: 0 auto; /* Centrer le conteneur sur la page */
-    padding: 20px; /* Ajoutez un peu d'espacement intérieur pour le contenu */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-a{
+a {
     outline: none;
     text-decoration: none;
     color: #ffffff;
@@ -25,7 +25,7 @@ a{
 
 
 
-.glass-ctr{
+.glass-ctr {
     width: 600px;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ a{
     top: 250px;
 }
 
-.glass{
+.glass {
     width: 300px;
     height: 420px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -49,7 +49,7 @@ a{
     border-radius: 13px;
 }
 
-.water-ctr{
+.water-ctr {
     width: 250px;
     height: 400px;
     overflow: hidden;
@@ -60,9 +60,9 @@ a{
     bottom: 420px;
 }
 
-.water{
+.water {
     width: 4000px;
-    height: 800px;  
+    height: 800px;
     background-image: url('image.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -73,14 +73,21 @@ a{
 }
 
 @keyframes mymove {
-    0%{right: 0; top: 400px;}
-    100%{right: 3400px; top: -30px;}
+    0% {
+        right: 0;
+        top: 400px;
+    }
+
+    100% {
+        right: 3400px;
+        top: -30px;
+    }
 }
 
-#btn{
+#btn {
     background-image: url('fleche.GIF');
     background-color: transparent;
-    font-family: 'Chalkduster', fantasy ;
+    font-family: 'Chalkduster', fantasy;
     width: 300px;
     height: 150px;
     background-size: cover;
@@ -88,7 +95,6 @@ a{
 
 }
 
-#btn:hover{
-    
+#btn:hover {
     cursor: pointer;
 }
