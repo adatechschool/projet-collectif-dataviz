@@ -60,7 +60,119 @@ a {
     bottom: 420px;
 }
 
-.water {
+.mojito {
+    width: 4000px;
+    height: 800px;
+<<<<<<< HEAD
+    background-image: url('yellow_bird.png');
+=======
+    background-image: url('mojito.png');
+>>>>>>> f24e153 (creation class cocktail pour couleur)
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.gin_tonic {
+    width: 4000px;
+    height: 800px;
+    background-image: url('gin_tonic.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.bloody_mary {
+    width: 4000px;
+    height: 800px;
+    background-image: url('bloody_mary.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.planteur {
+    width: 4000px;
+    height: 800px;
+    background-image: url('planter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.horse_s_neck {
+    width: 4000px;
+    height: 800px;
+    background-image: url('horse.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.mary_pickford {
+    width: 4000px;
+    height: 800px;
+    background-image: url('mary_pickford.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.grand_blue {
+    width: 4000px;
+    height: 800px;
+    background-image: url('grand_blue.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.absolut_stress {
+    width: 4000px;
+    height: 800px;
+    background-image: url('absolut_stress.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.kiwi_lemon {
+    width: 4000px;
+    height: 800px;
+    background-image: url('kiwi_lemon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: mymove 10s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.yellow_bird {
     width: 4000px;
     height: 800px;
     background-image: url('yellow_bird.png');
@@ -71,6 +183,7 @@ a {
     animation-fill-mode: forwards;
     z-index: 1;
 }
+
 
 @keyframes mymove {
     0% {
